@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app='fiapIOT'>
+    <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.angularjs.org/1.4.9/angular.min.js"></script>
+    <script src="main.js"></script>
+    </head>
+    <body ng-controller='MainCtrl'>
+
+    <div class="container">
+    <h1>Show Pirotecnico</h1>
+    <p>
+        <button type="button" class="btn btn-warning" ng-click='ligar()'>Ligar</button>
+        <button type="button" class="btn btn-danger" ng-click='desligar()'>Desligar</button>
+        <button type="button" class="btn btn-info" ng-click='temperatura()'>Temperatura</button>
+    </p>
+    </div>
+
+    </body>
+</html>
